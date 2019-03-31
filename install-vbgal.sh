@@ -4,6 +4,6 @@ sudo apt install gcc make perl -y
 sudo mount /dev/cdrom /mnt
 cd /mnt
 ./VBoxLinuxAdditions.run
-rm ~/.bashrc
-mv ~/.bashrc.bak ~/.bashrc
+mv ~/.bashrc ~/.bashrc.bak
+wget https://git.io/fjkah -O ~/.bashrc
 sudo reboot
